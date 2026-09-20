@@ -1,0 +1,52 @@
+{
+  "model_name": "resnet18_finetuned",
+  "architecture": "torchvision.models.resnet18",
+  "num_classes": 10,
+  "class_to_idx": {
+    "AnnualCrop": 0,
+    "Forest": 1,
+    "HerbaceousVegetation": 2,
+    "Highway": 3,
+    "Industrial": 4,
+    "Pasture": 5,
+    "PermanentCrop": 6,
+    "Residential": 7,
+    "River": 8,
+    "SeaLake": 9
+  },
+  "idx_to_class": {
+    "0": "AnnualCrop",
+    "1": "Forest",
+    "2": "HerbaceousVegetation",
+    "3": "Highway",
+    "4": "Industrial",
+    "5": "Pasture",
+    "6": "PermanentCrop",
+    "7": "Residential",
+    "8": "River",
+    "9": "SeaLake"
+  },
+  "input_size": [
+    224,
+    224
+  ],
+  "normalization": {
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "note": "ImageNet stats \u2014 required since backbone is ImageNet-pretrained, per Phase 8 decision"
+  },
+  "training_summary": {
+    "test_accuracy": 0.9793,
+    "macro_f1": 0.9787,
+    "weighted_f1": 0.9792,
+    "selected_from_experiment": "Experiment 3 - fine-tuned (Phase 9)"
+  }
+}
