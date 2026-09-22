@@ -14,25 +14,25 @@ venv/
 env/
 
 # =========================
-# Jupyter
-# =========================
-.ipynb_checkpoints/
-
-# =========================
 # Dataset
 # =========================
 data/raw/
-data/processed/
+
+# NOTE:
+# data/processed/ contains small, deterministic files
+# intentionally committed for reproducibility.
 
 # =========================
 # Trained models
 # =========================
-*.pth
-*.pt
-*.ckpt
-*.onnx
-*.joblib
-*.pkl
+models/*.pth
+models/*.pt
+models/*.ckpt
+models/*.onnx
+models/*.joblib
+models/*.pkl
+
+# Model configuration is intentionally committed.
 
 # =========================
 # Logs / experiments
@@ -41,6 +41,11 @@ logs/
 *.log
 runs/
 mlruns/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
 
 # =========================
 # OS
@@ -64,3 +69,13 @@ Thumbs.db
 # =========================
 *.tmp
 *.temp
+
+# =========================
+# Colab artifact
+# =========================
+colab_upload.zip
+
+# =========================
+# Testing
+# =========================
+.pytest_cache/
