@@ -1,0 +1,653 @@
+{
+  "total_errors": 84,
+  "total_test_images": 4050,
+  "error_rate": 0.02074074074074074,
+  "confusion_pairs_ranked": [
+    {
+      "true_class": "PermanentCrop",
+      "pred_class": "HerbaceousVegetation",
+      "count": 13
+    },
+    {
+      "true_class": "PermanentCrop",
+      "pred_class": "AnnualCrop",
+      "count": 11
+    },
+    {
+      "true_class": "AnnualCrop",
+      "pred_class": "PermanentCrop",
+      "count": 7
+    },
+    {
+      "true_class": "HerbaceousVegetation",
+      "pred_class": "PermanentCrop",
+      "count": 7
+    },
+    {
+      "true_class": "Highway",
+      "pred_class": "River",
+      "count": 5
+    },
+    {
+      "true_class": "HerbaceousVegetation",
+      "pred_class": "Pasture",
+      "count": 4
+    },
+    {
+      "true_class": "Pasture",
+      "pred_class": "AnnualCrop",
+      "count": 4
+    },
+    {
+      "true_class": "Pasture",
+      "pred_class": "HerbaceousVegetation",
+      "count": 4
+    },
+    {
+      "true_class": "Forest",
+      "pred_class": "HerbaceousVegetation",
+      "count": 3
+    },
+    {
+      "true_class": "Industrial",
+      "pred_class": "Residential",
+      "count": 3
+    },
+    {
+      "true_class": "Pasture",
+      "pred_class": "Forest",
+      "count": 3
+    },
+    {
+      "true_class": "AnnualCrop",
+      "pred_class": "Pasture",
+      "count": 2
+    },
+    {
+      "true_class": "Highway",
+      "pred_class": "Industrial",
+      "count": 2
+    },
+    {
+      "true_class": "SeaLake",
+      "pred_class": "River",
+      "count": 2
+    },
+    {
+      "true_class": "AnnualCrop",
+      "pred_class": "SeaLake",
+      "count": 1
+    },
+    {
+      "true_class": "Forest",
+      "pred_class": "Pasture",
+      "count": 1
+    },
+    {
+      "true_class": "HerbaceousVegetation",
+      "pred_class": "Forest",
+      "count": 1
+    },
+    {
+      "true_class": "Highway",
+      "pred_class": "AnnualCrop",
+      "count": 1
+    },
+    {
+      "true_class": "Industrial",
+      "pred_class": "River",
+      "count": 1
+    },
+    {
+      "true_class": "Industrial",
+      "pred_class": "Highway",
+      "count": 1
+    },
+    {
+      "true_class": "Pasture",
+      "pred_class": "PermanentCrop",
+      "count": 1
+    },
+    {
+      "true_class": "Pasture",
+      "pred_class": "River",
+      "count": 1
+    },
+    {
+      "true_class": "Residential",
+      "pred_class": "Industrial",
+      "count": 1
+    },
+    {
+      "true_class": "River",
+      "pred_class": "SeaLake",
+      "count": 1
+    },
+    {
+      "true_class": "River",
+      "pred_class": "Highway",
+      "count": 1
+    },
+    {
+      "true_class": "River",
+      "pred_class": "AnnualCrop",
+      "count": 1
+    },
+    {
+      "true_class": "SeaLake",
+      "pred_class": "AnnualCrop",
+      "count": 1
+    },
+    {
+      "true_class": "SeaLake",
+      "pred_class": "Forest",
+      "count": 1
+    }
+  ],
+  "all_errors": [
+    {
+      "idx": 147,
+      "true_class": "AnnualCrop",
+      "pred_class": "PermanentCrop",
+      "confidence": 0.6625721454620361
+    },
+    {
+      "idx": 152,
+      "true_class": "AnnualCrop",
+      "pred_class": "PermanentCrop",
+      "confidence": 0.8290174603462219
+    },
+    {
+      "idx": 166,
+      "true_class": "AnnualCrop",
+      "pred_class": "PermanentCrop",
+      "confidence": 0.5438867807388306
+    },
+    {
+      "idx": 196,
+      "true_class": "AnnualCrop",
+      "pred_class": "PermanentCrop",
+      "confidence": 0.9020577669143677
+    },
+    {
+      "idx": 230,
+      "true_class": "AnnualCrop",
+      "pred_class": "PermanentCrop",
+      "confidence": 0.9590232372283936
+    },
+    {
+      "idx": 268,
+      "true_class": "AnnualCrop",
+      "pred_class": "SeaLake",
+      "confidence": 0.5250937938690186
+    },
+    {
+      "idx": 342,
+      "true_class": "AnnualCrop",
+      "pred_class": "PermanentCrop",
+      "confidence": 0.9566857218742371
+    },
+    {
+      "idx": 345,
+      "true_class": "AnnualCrop",
+      "pred_class": "PermanentCrop",
+      "confidence": 0.7345829606056213
+    },
+    {
+      "idx": 382,
+      "true_class": "AnnualCrop",
+      "pred_class": "Pasture",
+      "confidence": 0.9539892673492432
+    },
+    {
+      "idx": 437,
+      "true_class": "AnnualCrop",
+      "pred_class": "Pasture",
+      "confidence": 0.5689340829849243
+    },
+    {
+      "idx": 532,
+      "true_class": "Forest",
+      "pred_class": "Pasture",
+      "confidence": 0.7230051159858704
+    },
+    {
+      "idx": 679,
+      "true_class": "Forest",
+      "pred_class": "HerbaceousVegetation",
+      "confidence": 0.6012428998947144
+    },
+    {
+      "idx": 754,
+      "true_class": "Forest",
+      "pred_class": "HerbaceousVegetation",
+      "confidence": 0.5916745066642761
+    },
+    {
+      "idx": 882,
+      "true_class": "Forest",
+      "pred_class": "HerbaceousVegetation",
+      "confidence": 0.9409793615341187
+    },
+    {
+      "idx": 902,
+      "true_class": "HerbaceousVegetation",
+      "pred_class": "PermanentCrop",
+      "confidence": 0.7020753026008606
+    },
+    {
+      "idx": 916,
+      "true_class": "HerbaceousVegetation",
+      "pred_class": "Pasture",
+      "confidence": 0.8670302629470825
+    },
+    {
+      "idx": 940,
+      "true_class": "HerbaceousVegetation",
+      "pred_class": "PermanentCrop",
+      "confidence": 0.5578404068946838
+    },
+    {
+      "idx": 946,
+      "true_class": "HerbaceousVegetation",
+      "pred_class": "Forest",
+      "confidence": 0.5650906562805176
+    },
+    {
+      "idx": 1114,
+      "true_class": "HerbaceousVegetation",
+      "pred_class": "PermanentCrop",
+      "confidence": 0.7197633981704712
+    },
+    {
+      "idx": 1171,
+      "true_class": "HerbaceousVegetation",
+      "pred_class": "PermanentCrop",
+      "confidence": 0.9684333205223083
+    },
+    {
+      "idx": 1177,
+      "true_class": "HerbaceousVegetation",
+      "pred_class": "Pasture",
+      "confidence": 0.4932454228401184
+    },
+    {
+      "idx": 1239,
+      "true_class": "HerbaceousVegetation",
+      "pred_class": "PermanentCrop",
+      "confidence": 0.5682579278945923
+    },
+    {
+      "idx": 1288,
+      "true_class": "HerbaceousVegetation",
+      "pred_class": "PermanentCrop",
+      "confidence": 0.9517489671707153
+    },
+    {
+      "idx": 1303,
+      "true_class": "HerbaceousVegetation",
+      "pred_class": "PermanentCrop",
+      "confidence": 0.5062650442123413
+    },
+    {
+      "idx": 1323,
+      "true_class": "HerbaceousVegetation",
+      "pred_class": "Pasture",
+      "confidence": 0.8755620121955872
+    },
+    {
+      "idx": 1325,
+      "true_class": "HerbaceousVegetation",
+      "pred_class": "Pasture",
+      "confidence": 0.7181573510169983
+    },
+    {
+      "idx": 1398,
+      "true_class": "Highway",
+      "pred_class": "AnnualCrop",
+      "confidence": 0.5710708498954773
+    },
+    {
+      "idx": 1407,
+      "true_class": "Highway",
+      "pred_class": "Industrial",
+      "confidence": 0.6613935232162476
+    },
+    {
+      "idx": 1501,
+      "true_class": "Highway",
+      "pred_class": "River",
+      "confidence": 0.537077009677887
+    },
+    {
+      "idx": 1574,
+      "true_class": "Highway",
+      "pred_class": "River",
+      "confidence": 0.7730271220207214
+    },
+    {
+      "idx": 1626,
+      "true_class": "Highway",
+      "pred_class": "River",
+      "confidence": 0.9707981944084167
+    },
+    {
+      "idx": 1672,
+      "true_class": "Highway",
+      "pred_class": "River",
+      "confidence": 0.9982349872589111
+    },
+    {
+      "idx": 1693,
+      "true_class": "Highway",
+      "pred_class": "River",
+      "confidence": 0.7476837038993835
+    },
+    {
+      "idx": 1707,
+      "true_class": "Highway",
+      "pred_class": "Industrial",
+      "confidence": 0.5398757457733154
+    },
+    {
+      "idx": 1728,
+      "true_class": "Industrial",
+      "pred_class": "Residential",
+      "confidence": 0.5505755543708801
+    },
+    {
+      "idx": 1750,
+      "true_class": "Industrial",
+      "pred_class": "Residential",
+      "confidence": 0.9043512940406799
+    },
+    {
+      "idx": 1760,
+      "true_class": "Industrial",
+      "pred_class": "River",
+      "confidence": 0.6487225294113159
+    },
+    {
+      "idx": 1837,
+      "true_class": "Industrial",
+      "pred_class": "Highway",
+      "confidence": 0.5828153491020203
+    },
+    {
+      "idx": 1902,
+      "true_class": "Industrial",
+      "pred_class": "Residential",
+      "confidence": 0.5449183583259583
+    },
+    {
+      "idx": 2120,
+      "true_class": "Pasture",
+      "pred_class": "PermanentCrop",
+      "confidence": 0.6223396062850952
+    },
+    {
+      "idx": 2132,
+      "true_class": "Pasture",
+      "pred_class": "Forest",
+      "confidence": 0.4109194278717041
+    },
+    {
+      "idx": 2133,
+      "true_class": "Pasture",
+      "pred_class": "AnnualCrop",
+      "confidence": 0.6663260459899902
+    },
+    {
+      "idx": 2136,
+      "true_class": "Pasture",
+      "pred_class": "River",
+      "confidence": 0.6241291761398315
+    },
+    {
+      "idx": 2191,
+      "true_class": "Pasture",
+      "pred_class": "HerbaceousVegetation",
+      "confidence": 0.6407642364501953
+    },
+    {
+      "idx": 2192,
+      "true_class": "Pasture",
+      "pred_class": "HerbaceousVegetation",
+      "confidence": 0.8372336626052856
+    },
+    {
+      "idx": 2202,
+      "true_class": "Pasture",
+      "pred_class": "AnnualCrop",
+      "confidence": 0.7373496294021606
+    },
+    {
+      "idx": 2204,
+      "true_class": "Pasture",
+      "pred_class": "AnnualCrop",
+      "confidence": 0.7601682543754578
+    },
+    {
+      "idx": 2206,
+      "true_class": "Pasture",
+      "pred_class": "HerbaceousVegetation",
+      "confidence": 0.7767263650894165
+    },
+    {
+      "idx": 2220,
+      "true_class": "Pasture",
+      "pred_class": "Forest",
+      "confidence": 0.584335207939148
+    },
+    {
+      "idx": 2247,
+      "true_class": "Pasture",
+      "pred_class": "Forest",
+      "confidence": 0.9927716851234436
+    },
+    {
+      "idx": 2315,
+      "true_class": "Pasture",
+      "pred_class": "AnnualCrop",
+      "confidence": 0.9258259534835815
+    },
+    {
+      "idx": 2331,
+      "true_class": "Pasture",
+      "pred_class": "HerbaceousVegetation",
+      "confidence": 0.7665365934371948
+    },
+    {
+      "idx": 2406,
+      "true_class": "PermanentCrop",
+      "pred_class": "AnnualCrop",
+      "confidence": 0.8049333691596985
+    },
+    {
+      "idx": 2457,
+      "true_class": "PermanentCrop",
+      "pred_class": "HerbaceousVegetation",
+      "confidence": 0.5570663213729858
+    },
+    {
+      "idx": 2463,
+      "true_class": "PermanentCrop",
+      "pred_class": "HerbaceousVegetation",
+      "confidence": 0.9784965515136719
+    },
+    {
+      "idx": 2468,
+      "true_class": "PermanentCrop",
+      "pred_class": "AnnualCrop",
+      "confidence": 0.835112988948822
+    },
+    {
+      "idx": 2483,
+      "true_class": "PermanentCrop",
+      "pred_class": "HerbaceousVegetation",
+      "confidence": 0.9671183824539185
+    },
+    {
+      "idx": 2499,
+      "true_class": "PermanentCrop",
+      "pred_class": "HerbaceousVegetation",
+      "confidence": 0.8730863332748413
+    },
+    {
+      "idx": 2511,
+      "true_class": "PermanentCrop",
+      "pred_class": "AnnualCrop",
+      "confidence": 0.9919260144233704
+    },
+    {
+      "idx": 2539,
+      "true_class": "PermanentCrop",
+      "pred_class": "HerbaceousVegetation",
+      "confidence": 0.8240081071853638
+    },
+    {
+      "idx": 2568,
+      "true_class": "PermanentCrop",
+      "pred_class": "AnnualCrop",
+      "confidence": 0.9681812524795532
+    },
+    {
+      "idx": 2579,
+      "true_class": "PermanentCrop",
+      "pred_class": "AnnualCrop",
+      "confidence": 0.9252617359161377
+    },
+    {
+      "idx": 2624,
+      "true_class": "PermanentCrop",
+      "pred_class": "HerbaceousVegetation",
+      "confidence": 0.9136855006217957
+    },
+    {
+      "idx": 2647,
+      "true_class": "PermanentCrop",
+      "pred_class": "AnnualCrop",
+      "confidence": 0.5955639481544495
+    },
+    {
+      "idx": 2660,
+      "true_class": "PermanentCrop",
+      "pred_class": "HerbaceousVegetation",
+      "confidence": 0.5269013047218323
+    },
+    {
+      "idx": 2676,
+      "true_class": "PermanentCrop",
+      "pred_class": "HerbaceousVegetation",
+      "confidence": 0.9351667761802673
+    },
+    {
+      "idx": 2681,
+      "true_class": "PermanentCrop",
+      "pred_class": "HerbaceousVegetation",
+      "confidence": 0.9054064750671387
+    },
+    {
+      "idx": 2683,
+      "true_class": "PermanentCrop",
+      "pred_class": "AnnualCrop",
+      "confidence": 0.5170421600341797
+    },
+    {
+      "idx": 2697,
+      "true_class": "PermanentCrop",
+      "pred_class": "HerbaceousVegetation",
+      "confidence": 0.9410127401351929
+    },
+    {
+      "idx": 2703,
+      "true_class": "PermanentCrop",
+      "pred_class": "HerbaceousVegetation",
+      "confidence": 0.4845314025878906
+    },
+    {
+      "idx": 2729,
+      "true_class": "PermanentCrop",
+      "pred_class": "HerbaceousVegetation",
+      "confidence": 0.7340959310531616
+    },
+    {
+      "idx": 2737,
+      "true_class": "PermanentCrop",
+      "pred_class": "AnnualCrop",
+      "confidence": 0.9940152764320374
+    },
+    {
+      "idx": 2751,
+      "true_class": "PermanentCrop",
+      "pred_class": "AnnualCrop",
+      "confidence": 0.9700595140457153
+    },
+    {
+      "idx": 2768,
+      "true_class": "PermanentCrop",
+      "pred_class": "AnnualCrop",
+      "confidence": 0.9622924327850342
+    },
+    {
+      "idx": 2770,
+      "true_class": "PermanentCrop",
+      "pred_class": "AnnualCrop",
+      "confidence": 0.5310591459274292
+    },
+    {
+      "idx": 2774,
+      "true_class": "PermanentCrop",
+      "pred_class": "HerbaceousVegetation",
+      "confidence": 0.9983453750610352
+    },
+    {
+      "idx": 2844,
+      "true_class": "Residential",
+      "pred_class": "Industrial",
+      "confidence": 0.5516110062599182
+    },
+    {
+      "idx": 3295,
+      "true_class": "River",
+      "pred_class": "SeaLake",
+      "confidence": 0.982286274433136
+    },
+    {
+      "idx": 3378,
+      "true_class": "River",
+      "pred_class": "Highway",
+      "confidence": 0.9738284349441528
+    },
+    {
+      "idx": 3442,
+      "true_class": "River",
+      "pred_class": "AnnualCrop",
+      "confidence": 0.5158706903457642
+    },
+    {
+      "idx": 3627,
+      "true_class": "SeaLake",
+      "pred_class": "River",
+      "confidence": 0.9639058113098145
+    },
+    {
+      "idx": 3704,
+      "true_class": "SeaLake",
+      "pred_class": "AnnualCrop",
+      "confidence": 0.6595591306686401
+    },
+    {
+      "idx": 3837,
+      "true_class": "SeaLake",
+      "pred_class": "Forest",
+      "confidence": 0.9701662063598633
+    },
+    {
+      "idx": 3943,
+      "true_class": "SeaLake",
+      "pred_class": "River",
+      "confidence": 0.6465630531311035
+    }
+  ]
+}
